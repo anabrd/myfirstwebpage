@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #9c5518;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #9c5518;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #5a3f11;
+}
+
+hr {
+  width: 3%;
+  border-style: dotted none none;
+  border-color: #ef962d;
+  border-width: 5px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #5a3f11;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #faf4f4;
+}
+
+.top-container {
+  background-color: #faf4f4;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+
+
+}
+
+
+.profile-picture {
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.nerd {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+
+.goat {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.bottom-container {
+  background-color: #ef962d;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.footer-link {
+  padding-bottom: 100px;
+  color: #5a3f11
+}
+
+.copyright {
+  text-align: center;
+  color: #faf4f4;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.BUTTON_WCW {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FAF4F4;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 17px;
+  background-color: #5A3F11;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.BUTTON_WCW:hover {
+  background: #9C5518;
+  border: solid #9C5518 1px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  border-radius: 24px;
+  text-decoration: none;
+}
